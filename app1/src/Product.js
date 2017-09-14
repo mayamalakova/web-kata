@@ -4,7 +4,7 @@ class Product extends Component {
 
     render() {
         const p = this.props.product;
-        return <li>{this.getTags(p)} {p.name} - {p.description}</li>
+        return <li className="Product">{this.getTags(p)} {p.name} - {p.description}</li>
     }
 
     getTags(p) {

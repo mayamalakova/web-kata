@@ -12,3 +12,10 @@
 .App-intro {
   font-size: large;
 }
+
+.Product {
+  color: green;
+  font-style: italic;
+  list-style: none;
+  text-align: left;
+}
